@@ -5,7 +5,7 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
-  server: 82.198.246.233
+  server: 82.198.246.37
   port: 180
   udp: true
   type: vmess
@@ -13,16 +13,18 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
-  server: 151.101.56.101
+  server: 51.161.204.242
   port: 443
   udp: true
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: '@mehrosaboran'
+  type: vless
+  uuid: a14b736b-a92a-48d6-a596-5d31f7378ded
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: a2qGjvUPq6Nz5FTbn_MSHp-055q2h8YXqIL5VIJ5zwE
+    short-id: d15c17cef9b2e456
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: 103.75.119.126
   port: 2087
@@ -38,7 +40,7 @@ proxies:
   udp: true
   type: hysteria2
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: t.me
+  sni: whatsapp.com
   skip-cert-verify: true
 - name: 🇦🇺 澳大利亚 (Australia) 05 - xiaohe
   server: 32.236.171.236
