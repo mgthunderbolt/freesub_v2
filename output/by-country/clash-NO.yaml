@@ -25,7 +25,7 @@ proxies:
   servername: bowandbead.com
   client-fingerprint: qq
 - name: 🇳🇴 挪威 (Norway) 03 - xiaohe
-  server: aldebaran.yokkastars.com
+  server: 89.185.81.65
   port: 40443
   udp: true
   type: vless
