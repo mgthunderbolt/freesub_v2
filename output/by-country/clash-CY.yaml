@@ -29,6 +29,21 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: ''
+- name: 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
+  server: carina.yokkastars.com
+  port: 2443
+  udp: true
+  type: vless
+  uuid: 826f4c26-5e01-472d-a1f1-1bd8e2cb25fb
+  tls: true
+  reality-opts:
+    public-key: 3cW_F0us0je_lhnl5xpwSxHyRfTQaKFELxWLr8jRzic
+    short-id: e496c7fe1cefc9ff
+  servername: deepl.com
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: rex-grpc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -36,6 +51,7 @@ proxy-groups:
   - AUTO
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -43,5 +59,6 @@ proxy-groups:
   proxies:
   - 🇨🇾 塞浦路斯 (Cyprus) 01 - xiaohe
   - 🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe
+  - 🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe
 rules:
 - MATCH,PROXIES
