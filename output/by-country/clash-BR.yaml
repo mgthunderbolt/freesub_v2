@@ -5,18 +5,28 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇧🇷 巴西 (Brazil) 01 - xiaohe
-  server: 146.185.178.18
+  server: 199.232.78.101
   port: 443
+  udp: true
+  type: trojan
+  password: MiTIVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇧🇷 巴西 (Brazil) 02 - xiaohe
+  server: 144.31.28.106
+  port: 8443
   udp: true
   type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   tls: true
   servername: cdn8848.776676.xyz
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /trade
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -25,11 +35,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇧🇷 巴西 (Brazil) 01 - xiaohe
+  - 🇧🇷 巴西 (Brazil) 02 - xiaohe
 rules:
 - MATCH,PROXIES
