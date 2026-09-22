@@ -5,17 +5,17 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 95.85.230.35
+  server: lucky-lab-ac6d.caveyi8071.workers.dev
   port: 443
   udp: true
   type: vless
-  uuid: bbfd1f68-ec64-452f-8404-9e2bcf1df951
-  flow: xtls-rprx-vision
+  uuid: 8a36be1d-7c78-4885-8a1f-bedf5ba7db1c
   tls: true
-  reality-opts:
-    public-key: mJ-0fJDvKp0rhuyUvs1bw4RasRRM-BEOAl9iAZ8gXy0
-  servername: de.oblaco.bet
-  client-fingerprint: ''
+  servername: lucky-lab-ac6d.caveyi8071.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 - name: 🇨🇿 捷克 (Czech) 02 - xiaohe
   server: 95.182.94.186
   port: 443
