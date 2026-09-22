@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -35,20 +35,13 @@
     {
       "type": "trojan",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "212.183.88.136",
+      "server": "86.106.119.23",
       "server_port": 443,
-      "password": "humanity",
+      "password": "600421cf-11d7-429f-a65b-c30397f1bc03",
       "tls": {
         "enabled": true,
-        "server_name": "www.calmlunch.com",
+        "server_name": "gr.freeguard.org",
         "insecure": false
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assignment",
-        "headers": {
-          "Host": "www.calmlunch.com"
-        }
       }
     },
     {
