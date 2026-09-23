@@ -12,8 +12,16 @@
       "password": "tkhHVxxfM2QErBWe"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇵🇱 波兰 (Poland) 02 - xiaohe",
+      "server": "217.30.10.44",
+      "server_port": 9099,
+      "method": "aes-256-cfb",
+      "password": "7heRqkPG3hg4UnRm"
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
       "server": "185.223.57.10",
       "server_port": 33743,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
@@ -34,14 +42,6 @@
         "type": "grpc",
         "service_name": "TunService"
       }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇵🇱 波兰 (Poland) 03 - xiaohe",
-      "server": "217.30.10.44",
-      "server_port": 9099,
-      "method": "aes-256-cfb",
-      "password": "7heRqkPG3hg4UnRm"
     },
     {
       "type": "vless",
@@ -88,13 +88,13 @@
     {
       "type": "hysteria2",
       "tag": "🇵🇱 波兰 (Poland) 06 - xiaohe",
-      "server": "admin.wwwinternetvideo.click",
+      "server": "144.31.49.47",
       "server_port": 443,
       "password": "YutbgyXL1mGaSlBXDoEucWvYbrDCINgUcQ6R6_At5Pjr2xCc",
       "tls": {
         "enabled": true,
         "server_name": "admin.wwwinternetvideo.click",
-        "insecure": true
+        "insecure": false
       }
     },
     {
