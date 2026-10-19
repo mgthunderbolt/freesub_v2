@@ -18,7 +18,7 @@ proxies:
   servername: www.datadoghq.com
   client-fingerprint: firefox
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaohe
-  server: 104.21.48.18
+  server: nimm.mpd.cc.cd
   port: 2053
   udp: true
   type: trojan
