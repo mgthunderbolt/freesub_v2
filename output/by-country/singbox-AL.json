@@ -6,10 +6,10 @@
     {
       "type": "shadowsocks",
       "tag": "🇦🇱 AL 01 - xiaohe",
-      "server": "dns22.m3hrzd.ir",
-      "server_port": 1348,
+      "server": "alb.rvpn.app",
+      "server_port": 8388,
       "method": "chacha20-ietf-poly1305",
-      "password": "LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn"
+      "password": "hTTg7lwQMzpaF7KXpY3A8w"
     },
     {
       "type": "selector",

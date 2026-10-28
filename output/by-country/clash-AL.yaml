@@ -5,12 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇱 AL 01 - xiaohe
-  server: dns22.m3hrzd.ir
-  port: 1348
+  server: alb.rvpn.app
+  port: 8388
   udp: true
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn
+  password: hTTg7lwQMzpaF7KXpY3A8w
 proxy-groups:
 - name: PROXIES
   type: select
