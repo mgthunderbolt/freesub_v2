@@ -5,21 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: www.gptcloudai.com
-  port: 443
+  server: n04.jinggai.online
+  port: 8443
   udp: true
-  type: vmess
-  uuid: e70a5b70-f63c-4450-af8b-94990cdf80c0
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
   tls: true
-  servername: www.gptcloudai.com
+  servername: n04.jinggai.online
   skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /truth
+    path: /nvl-n04-ws/e0577fe8fd7c8823
     headers:
-      Host: www.gptcloudai.com
+      Host: n04.jinggai.online
 proxy-groups:
 - name: PROXIES
   type: select
