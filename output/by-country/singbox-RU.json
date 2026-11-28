@@ -42,26 +42,6 @@
     {
       "type": "vless",
       "tag": "🇷🇺 俄罗斯 (Russia) 04 - xiaohe",
-      "server": "200.169.179.233",
-      "server_port": 443,
-      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
-      "tls": {
-        "enabled": true,
-        "server_name": "vps3.nemnogogo.com",
-        "insecure": false,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "mobile.api.Event"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
       "server": "xssite.webredirect.org",
       "server_port": 443,
       "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
@@ -77,6 +57,29 @@
       "transport": {
         "type": "grpc",
         "service_name": "grpc-ru"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 俄罗斯 (Russia) 05 - xiaohe",
+      "server": "147.45.175.81",
+      "server_port": 443,
+      "uuid": "c90395e6-2140-47ad-a54d-9b166729d3ef",
+      "tls": {
+        "enabled": true,
+        "server_name": "xsru2.freeddns.org",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wsru",
+        "headers": {
+          "Host": "xsru2.freeddns.org"
+        }
       }
     },
     {
